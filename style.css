@@ -1,0 +1,69 @@
+.outerDiv {
+  background-color: blue;
+  height: fit-content;
+  width: fit-content;
+  margin: 5%;
+  padding: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border-radius: 0.5rem;
+}
+
+.innerDiv {
+  background-color: aqua;
+  border-radius: 0.5rem;
+  height: fit-content;
+  width: fit-content;
+  margin: 2%;
+  padding: 2%;
+}
+
+h2 {
+  font-style: italic;
+}
+
+.classSelector {
+  color: grey;
+}
+
+#idSelector {
+  color: red;
+  font-weight: bold;
+}
+
+[type="img"] {
+  text-decoration: underline;
+}
+
+.psuedo:hover {
+  background-color: greenyellow;
+  transition: background-color 0.5s ease;
+}
+
+.descendant {
+  font-size: x-large;
+  font-weight: bolder;
+}
+.descendant p {
+  display: inline;
+  font-size: medium;
+  color: brown;
+}
+
+.child {
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.child > p {
+  font-size: smaller;
+  color: rgb(134, 51, 216);
+  display: inline;
+}
+
+h4 + p {
+  text-decoration: underline;
+  display: inline;
+  color: brown;
+}
